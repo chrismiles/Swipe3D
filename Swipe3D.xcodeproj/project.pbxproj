@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8343E13C15D28714007627F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13B15D28714007627F5 /* UIKit.framework */; };
+		8343E13E15D28714007627F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13D15D28714007627F5 /* Foundation.framework */; };
+		8343E14015D28714007627F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13F15D28714007627F5 /* CoreGraphics.framework */; };
+		8343E14215D28714007627F5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E14115D28714007627F5 /* GLKit.framework */; };
+		8343E14415D28714007627F5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E14315D28714007627F5 /* OpenGLES.framework */; };
+		8343E14A15D28714007627F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8343E14815D28714007627F5 /* InfoPlist.strings */; };
+		8343E15315D28714007627F5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8343E15115D28714007627F5 /* MainStoryboard_iPhone.storyboard */; };
+		8343E15615D28714007627F5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8343E15415D28714007627F5 /* MainStoryboard_iPad.storyboard */; };
+		8343E16A15D2897D007627F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8343E16515D2897D007627F5 /* main.m */; };
+		8343E16B15D2897D007627F5 /* S3DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8343E16715D2897D007627F5 /* S3DAppDelegate.m */; };
+		8343E16C15D2897D007627F5 /* S3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8343E16915D2897D007627F5 /* S3DViewController.m */; };
+		8343E18715D3229F007627F5 /* skybox_cubemap_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18115D3229F007627F5 /* skybox_cubemap_back.jpg */; };
+		8343E18815D3229F007627F5 /* skybox_cubemap_down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18215D3229F007627F5 /* skybox_cubemap_down.jpg */; };
+		8343E18915D3229F007627F5 /* skybox_cubemap_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18315D3229F007627F5 /* skybox_cubemap_front.jpg */; };
+		8343E18A15D3229F007627F5 /* skybox_cubemap_left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18415D3229F007627F5 /* skybox_cubemap_left.jpg */; };
+		8343E18B15D3229F007627F5 /* skybox_cubemap_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18515D3229F007627F5 /* skybox_cubemap_right.jpg */; };
+		8343E18C15D3229F007627F5 /* skybox_cubemap_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18615D3229F007627F5 /* skybox_cubemap_up.jpg */; };
+		8343E18E15D3243C007627F5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8343E18D15D3243C007627F5 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8343E13715D28714007627F5 /* Swipe3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8343E13B15D28714007627F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8343E13D15D28714007627F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8343E13F15D28714007627F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8343E14115D28714007627F5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8343E14315D28714007627F5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8343E14715D28714007627F5 /* Swipe3D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swipe3D-Info.plist"; sourceTree = "<group>"; };
+		8343E14915D28714007627F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8343E14D15D28714007627F5 /* Swipe3D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swipe3D-Prefix.pch"; sourceTree = "<group>"; };
+		8343E15215D28714007627F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8343E15515D28714007627F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8343E16515D2897D007627F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		8343E16615D2897D007627F5 /* S3DAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3DAppDelegate.h; sourceTree = "<group>"; };
+		8343E16715D2897D007627F5 /* S3DAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3DAppDelegate.m; sourceTree = "<group>"; };
+		8343E16815D2897D007627F5 /* S3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3DViewController.h; sourceTree = "<group>"; };
+		8343E16915D2897D007627F5 /* S3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3DViewController.m; sourceTree = "<group>"; };
+		8343E16D15D28A8C007627F5 /* Swipe_Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swipe_Vertical.h; sourceTree = "<group>"; };
+		8343E18115D3229F007627F5 /* skybox_cubemap_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_back.jpg; sourceTree = "<group>"; };
+		8343E18215D3229F007627F5 /* skybox_cubemap_down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_down.jpg; sourceTree = "<group>"; };
+		8343E18315D3229F007627F5 /* skybox_cubemap_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_front.jpg; sourceTree = "<group>"; };
+		8343E18415D3229F007627F5 /* skybox_cubemap_left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_left.jpg; sourceTree = "<group>"; };
+		8343E18515D3229F007627F5 /* skybox_cubemap_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_right.jpg; sourceTree = "<group>"; };
+		8343E18615D3229F007627F5 /* skybox_cubemap_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox_cubemap_up.jpg; sourceTree = "<group>"; };
+		8343E18D15D3243C007627F5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8343E13415D28714007627F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343E13C15D28714007627F5 /* UIKit.framework in Frameworks */,
+				8343E13E15D28714007627F5 /* Foundation.framework in Frameworks */,
+				8343E14015D28714007627F5 /* CoreGraphics.framework in Frameworks */,
+				8343E14215D28714007627F5 /* GLKit.framework in Frameworks */,
+				8343E14415D28714007627F5 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8343E12C15D28714007627F5 = {
+			isa = PBXGroup;
+			children = (
+				8343E14515D28714007627F5 /* Swipe3D */,
+				8343E18D15D3243C007627F5 /* LICENSE.txt */,
+				8343E13A15D28714007627F5 /* Frameworks */,
+				8343E13815D28714007627F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8343E13815D28714007627F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8343E13715D28714007627F5 /* Swipe3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8343E13A15D28714007627F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8343E13B15D28714007627F5 /* UIKit.framework */,
+				8343E13D15D28714007627F5 /* Foundation.framework */,
+				8343E13F15D28714007627F5 /* CoreGraphics.framework */,
+				8343E14115D28714007627F5 /* GLKit.framework */,
+				8343E14315D28714007627F5 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8343E14515D28714007627F5 /* Swipe3D */ = {
+			isa = PBXGroup;
+			children = (
+				8343E16415D2897D007627F5 /* src */,
+				8343E17215D3186F007627F5 /* Resources */,
+				8343E18015D31882007627F5 /* Storyboards */,
+				8343E14615D28714007627F5 /* Supporting Files */,
+			);
+			path = Swipe3D;
+			sourceTree = "<group>";
+		};
+		8343E14615D28714007627F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8343E14715D28714007627F5 /* Swipe3D-Info.plist */,
+				8343E14815D28714007627F5 /* InfoPlist.strings */,
+				8343E16515D2897D007627F5 /* main.m */,
+				8343E14D15D28714007627F5 /* Swipe3D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8343E16415D2897D007627F5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8343E16615D2897D007627F5 /* S3DAppDelegate.h */,
+				8343E16715D2897D007627F5 /* S3DAppDelegate.m */,
+				8343E16815D2897D007627F5 /* S3DViewController.h */,
+				8343E16915D2897D007627F5 /* S3DViewController.m */,
+				8343E16D15D28A8C007627F5 /* Swipe_Vertical.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8343E17215D3186F007627F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8343E17315D3186F007627F5 /* Textures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8343E17315D3186F007627F5 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				8343E18115D3229F007627F5 /* skybox_cubemap_back.jpg */,
+				8343E18215D3229F007627F5 /* skybox_cubemap_down.jpg */,
+				8343E18315D3229F007627F5 /* skybox_cubemap_front.jpg */,
+				8343E18415D3229F007627F5 /* skybox_cubemap_left.jpg */,
+				8343E18515D3229F007627F5 /* skybox_cubemap_right.jpg */,
+				8343E18615D3229F007627F5 /* skybox_cubemap_up.jpg */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		8343E18015D31882007627F5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8343E15115D28714007627F5 /* MainStoryboard_iPhone.storyboard */,
+				8343E15415D28714007627F5 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8343E13615D28714007627F5 /* Swipe3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8343E16015D28714007627F5 /* Build configuration list for PBXNativeTarget "Swipe3D" */;
+			buildPhases = (
+				8343E13315D28714007627F5 /* Sources */,
+				8343E13415D28714007627F5 /* Frameworks */,
+				8343E13515D28714007627F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swipe3D;
+			productName = Swipe3D;
+			productReference = 8343E13715D28714007627F5 /* Swipe3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8343E12E15D28714007627F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = S3D;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Chris Miles";
+			};
+			buildConfigurationList = 8343E13115D28714007627F5 /* Build configuration list for PBXProject "Swipe3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8343E12C15D28714007627F5;
+			productRefGroup = 8343E13815D28714007627F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8343E13615D28714007627F5 /* Swipe3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8343E13515D28714007627F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343E14A15D28714007627F5 /* InfoPlist.strings in Resources */,
+				8343E15315D28714007627F5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8343E15615D28714007627F5 /* MainStoryboard_iPad.storyboard in Resources */,
+				8343E18715D3229F007627F5 /* skybox_cubemap_back.jpg in Resources */,
+				8343E18815D3229F007627F5 /* skybox_cubemap_down.jpg in Resources */,
+				8343E18915D3229F007627F5 /* skybox_cubemap_front.jpg in Resources */,
+				8343E18A15D3229F007627F5 /* skybox_cubemap_left.jpg in Resources */,
+				8343E18B15D3229F007627F5 /* skybox_cubemap_right.jpg in Resources */,
+				8343E18C15D3229F007627F5 /* skybox_cubemap_up.jpg in Resources */,
+				8343E18E15D3243C007627F5 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8343E13315D28714007627F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343E16A15D2897D007627F5 /* main.m in Sources */,
+				8343E16B15D2897D007627F5 /* S3DAppDelegate.m in Sources */,
+				8343E16C15D2897D007627F5 /* S3DViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8343E14815D28714007627F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8343E14915D28714007627F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8343E15115D28714007627F5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8343E15215D28714007627F5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8343E15415D28714007627F5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8343E15515D28714007627F5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8343E15E15D28714007627F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8343E15F15D28714007627F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8343E16115D28714007627F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipe3D/Swipe3D-Prefix.pch";
+				INFOPLIST_FILE = "Swipe3D/Swipe3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8343E16215D28714007627F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipe3D/Swipe3D-Prefix.pch";
+				INFOPLIST_FILE = "Swipe3D/Swipe3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8343E13115D28714007627F5 /* Build configuration list for PBXProject "Swipe3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8343E15E15D28714007627F5 /* Debug */,
+				8343E15F15D28714007627F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8343E16015D28714007627F5 /* Build configuration list for PBXNativeTarget "Swipe3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8343E16115D28714007627F5 /* Debug */,
+				8343E16215D28714007627F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8343E12E15D28714007627F5 /* Project object */;
+}
