@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832BBEE1162B698E002F6542 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832BBEE0162B698E002F6542 /* Default-568h@2x.png */; };
 		8343E13C15D28714007627F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13B15D28714007627F5 /* UIKit.framework */; };
 		8343E13E15D28714007627F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13D15D28714007627F5 /* Foundation.framework */; };
 		8343E14015D28714007627F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8343E13F15D28714007627F5 /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832BBEE0162B698E002F6542 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8343E13715D28714007627F5 /* Swipe3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8343E13B15D28714007627F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8343E13D15D28714007627F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 		8343E12C15D28714007627F5 = {
 			isa = PBXGroup;
 			children = (
+				832BBEE0162B698E002F6542 /* Default-568h@2x.png */,
 				8343E14515D28714007627F5 /* Swipe3D */,
 				8343E18D15D3243C007627F5 /* LICENSE.txt */,
 				8343E13A15D28714007627F5 /* Frameworks */,
@@ -226,6 +229,7 @@
 				8343E18B15D3229F007627F5 /* skybox_cubemap_right.jpg in Resources */,
 				8343E18C15D3229F007627F5 /* skybox_cubemap_up.jpg in Resources */,
 				8343E18E15D3243C007627F5 /* LICENSE.txt in Resources */,
+				832BBEE1162B698E002F6542 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
