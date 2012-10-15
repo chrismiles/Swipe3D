@@ -5,7 +5,29 @@ Swipe3D
 
 Demo app from the OpenGL ES for iOS 5 talk by Chris Miles at Swipe Conference 2012.
 
-http://swipeconference.com.au/sessions#27-opengl-es-with-ios-5-part-2-rendering-a-masterpiece
+<http://swipeconference.com.au/sessions#27-opengl-es-with-ios-5-part-2-rendering-a-masterpiece>
+
+The app demonstrates how to implement some OpenGL ES effects using GLKit, such as:
+
+* Rendering a skybox using GLKSkyboxEffect
+* Rendering a reflection effect using GLKReflectionMapEffect
+* Setting up a cubemap texture using GLKTextureInfo
+* Drawing a mesh using indexed vertices and glDrawElements()
+
+The sample app is universal and supports all orientations.
+
+
+Presentation
+------------
+
+Download the slides (PDF) for the presentation from <http://chrismiles.info/presentations/SwipeConf-2012-OpenGL-ES-iOS5/Swipe-2012-OpenGL-ES-iOS5-Part2.pdf>
+
+
+Images
+------
+
+![Swipe3D Coloured](https://lh3.googleusercontent.com/-fahw5MkfH0I/UHvN-hrdQpI/AAAAAAAAAT8/Eh3xqRn94S0/s720/2012-10-15%252007.44.12%2520pm.png "Swipe3D Coloured")
+![Swipe3D Reflective](https://lh6.googleusercontent.com/-Mo7LFyLCLyU/UHvN-ZDV8hI/AAAAAAAAAUE/fZzh6fDQzLY/s720/2012-10-15%252007.46.41%2520pm.png "Swipe3D Reflective")
 
 
 License
